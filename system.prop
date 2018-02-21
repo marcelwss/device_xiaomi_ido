@@ -3,20 +3,20 @@ dalvik.vm.dex2oat-flags=--no-watch-dog
 
 # Audio
 af.fast_track_multiplier=1
-vendor.audio_hal.period_size=192
+audio_hal.period_size=192
 audio.deep_buffer.media=true
-persist.vendor.audio.fluence.speaker=true
+persist.vendor.audio.fluence.speaker=false
 persist.vendor.audio.fluence.voicecall=true
-persist.vendor.audio.fluence.voicerec=false
+persist.vendor.audio.fluence.voicerec=true
 ro.config.vc_call_vol_steps=8
-ro.vendor.audio.sdk.fluencetype=fluence
+ro.vendor.audio.sdk.fluencetype=none
 ro.vendor.audio.sdk.ssr=false
-vendor.tunnel.audio.encode=false
+tunnel.audio.encode=false
 vendor.voice.path.for.pcm.voip=true
 vidc.enc.narrow.searchrange=1
-vendor.voice.playback.conc.disabled=true
-vendor.voice.record.conc.disabled=true
-vendor.voice.voip.conc.disabled=true
+voice.playback.conc.disabled=true
+voice.record.conc.disabled=true
+voice.voip.conc.disabled=true
 
 # Audio offload
 vendor.audio.offload.buffer.size.kb=64
@@ -103,6 +103,9 @@ ril.subscription.types=NV,RUIM
 persist.radio.apm_sim_not_pwdn=1
 persist.radio.multisim.config=dsds
 ro.telephony.default_network=9,9
+
+# SdcardFs
+ro.sys.sdcardfs=false
 
 # Time
 persist.timed.enable=true
