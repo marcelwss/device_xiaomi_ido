@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "bondstas/device_xiaomi_ido",
+    "target_path": "device/xiaomi/ido",
+    "branch": "oreo-mr1-pixel"
+  },
+  {
+    "repository": "bondstas/kernel_xiaomi_msm8916",
+    "target_path": "kernel/xiaomi/msm8916",
+    "branch": "oreo-mr1"
+  },
+  {
+    "repository": "bondstas/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "oreo-mr1"
+  }
+]
